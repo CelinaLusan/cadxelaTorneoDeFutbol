@@ -1,7 +1,13 @@
 # cadxelaTorneoDeFutbol
 Proyecto con base a la participación en el proyecto de desarrollo global de software
 
-Estándar de codificación
+### Tecnologías ocupadas
+* HTML 5  
+* CSS 3  
+* JavaScript
+* XAMMP(Apache, MySQL, PHP)
+
+### Estándar de codificación
 
 # 1. Estándar de codificación
 
@@ -11,9 +17,9 @@ Este estándar de codificación define un estilo de programación homogéneo que
 
 Cada archivo de código fuente deberá contener:
 
- • Un encabezado.
- • Sentencias de importación (e.g., include, import)
- • Definición de la clase o función principal
+ * Un encabezado.
+ * Sentencias de importación (e.g., include, import)
+ * Definición de la clase o función principal
  
 # 1.2. Encabezado del programa
 
@@ -51,9 +57,9 @@ Aunado a lo anterior, cada nombre de método o función deberá iniciar con una 
 
 Finalmente:
 
-• No hay espacio entre el nombre del método, el paréntesis y la lista de parámetros.
-• Se abre la llave { al final de la misma línea que la declaración.
-• La llave de } debe aparecer en línea aparte con la misma indentación que el método o clase que cierra.
+* No hay espacio entre el nombre del método, el paréntesis y la lista de parámetros.
+* Se abre la llave { al final de la misma línea que la declaración.
+* La llave de } debe aparecer en línea aparte con la misma indentación que el método o clase que cierra.
 
 # 1.5. Indentación
 
@@ -101,13 +107,13 @@ Se deben utilizar un espacio en blanco entre la definición de métodos:
 
 Se deben usar descriptores en inglés que aclaren el cometido de la variable, método o clase.
 
-• Se debe usar terminología aplicable al dominio.
-• Si se usan abreviaturas hay que mantener en algún sitio una lista de lo que éstas significan.
-• Evitar en lo posible los nombres largos (menos de 15 letras sería lo ideal).
-• Evitar nombres que difieran en una letra o en el uso de mayúsculas.
-• Un nombre no debería constar de más de dos palabras.
-• No usar siglas en los nombres a menos que queden muy largos o sean siglas conocidas por todos.
-• Las constantes se escriben todas en mayúsculas.
+* Se debe usar terminología aplicable al dominio.
+* Si se usan abreviaturas hay que mantener en algún sitio una lista de lo que éstas significan.
+* Evitar en lo posible los nombres largos (menos de 15 letras sería lo ideal).
+* Evitar nombres que difieran en una letra o en el uso de mayúsculas.
+* Un nombre no debería constar de más de dos palabras.
+* No usar siglas en los nombres a menos que queden muy largos o sean siglas conocidas por todos.
+* Las constantes se escriben todas en mayúsculas.
 
 # 1.10. Código reutilizado o modificado
 
