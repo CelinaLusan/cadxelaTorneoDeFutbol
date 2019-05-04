@@ -7,6 +7,10 @@ Proyecto con base a la participación en el proyecto de desarrollo global de sof
 * JavaScript
 * XAMMP(Apache, MySQL, PHP)
 
+### Tablero con tareas asignadas
+
+http://cadxelagsd.herokuapp.com/sprint
+
 ### Estándar de codificación
 
 # 1. Estándar de codificación
