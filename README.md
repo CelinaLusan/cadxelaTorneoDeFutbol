@@ -12,10 +12,10 @@ Estándar de codificación
 • Definición de la clase o función principal
 1.2. Encabezado del programa
 Empezar todas las clases con el siguiente encabezado:
-/**
-* Autor: Alberto González
-**/
-/**
+# /**
+# * Autor: Alberto González
+# **/
+# /**
 * Resumen: Una breve descripción de la funcionalidad de la clase
 **/
 1.3. Definición de las clases
