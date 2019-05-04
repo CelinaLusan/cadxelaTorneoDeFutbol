@@ -32,8 +32,7 @@ Cada método o función definida dentro del código deberá iniciar con una desc
 private int sum(int a, int b){
  return a + b;
 }
-Aunado a lo anterior, cada nombre de método o función deberá iniciar con una letra en minúscula. Para el caso en que los nombres de los métodos o funciones contengan más de
-una palabra, la segunda deberá comenzar con una letra en mayúscula: 
+Aunado a lo anterior, cada nombre de método o función deberá iniciar con una letra en minúscula. Para el caso en que los nombres de los métodos o funciones contengan más de una palabra, la segunda deberá comenzar con una letra en mayúscula: 
 private int getMinimum(int a, int b). 
 Finalmente:
 • No hay espacio entre el nombre del método, el paréntesis y la lista de parámetros.
