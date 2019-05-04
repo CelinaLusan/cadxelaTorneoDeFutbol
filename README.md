@@ -3,12 +3,12 @@ Proyecto con base a la participación en el proyecto de desarrollo global de sof
 
 Estándar de codificación
 
-1. Estándar de codificación
-Este estándar de codificación define un estilo de programación homogéneo que será utilizado para el desarrollo de los proyectos en Cadxela GSD.
-1.1. Organización de los archivos
-Cada archivo de código fuente deberá contener:
-• Un encabezado.
-• Sentencias de importación (e.g., include, import)
+# 1. Estándar de codificación
+# Este estándar de codificación define un estilo de programación homogéneo que será utilizado para el desarrollo de los proyectos en Cadxela GSD.
+# 1.1. Organización de los archivos
+# Cada archivo de código fuente deberá contener:
+# • Un encabezado.
+# • Sentencias de importación (e.g., include, import)
 • Definición de la clase o función principal
 1.2. Encabezado del programa
 Empezar todas las clases con el siguiente encabezado:
