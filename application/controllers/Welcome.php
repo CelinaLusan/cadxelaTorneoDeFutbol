@@ -2,24 +2,41 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
+	
+	public $equipo_model;
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+	public function __construct(){
+		parent::__construct();
+		//Se cargan los modelos
+		$this->load->model('Equipo');		
+	 }
+
 	public function index()
 	{
 		$this->load->view('welcome_message');
 	}
+
+	public function insertdata()
+	{	
+		//recuperamos la información del formulario
+		$nombre = $this->input->post('nombreEquipo');	
+		
+		//insertamos el nombre del nuevo equipo
+		$id = $this->Equipo->insert($nombre);
+
+		//validación
+		$data['alert'] = 'alert-danger';
+		$data['title'] = 'Error';
+		$data['mensaje'] = 'Ocurrió un error al intentar agregar su equipo, por favor contacte al departamente de Desarrollo. ';
+		
+		if ( $id ) {
+			$data['alert'] = 'alert-success';
+			$data['title'] = 'Bien';
+			$data['mensaje'] = 'Su equipo se agregó de manera satisfactoria. ';			
+		}
+
+		$this->load->view('welcome_message',$data);
+	}
+
+	
 }
