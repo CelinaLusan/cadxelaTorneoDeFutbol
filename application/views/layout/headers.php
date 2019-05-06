@@ -10,6 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="<?= base_url();?>public/js/jquery-3-3-1.js"></script>    
     <script src="<?= base_url();?>public/js/popper.min.js"  ></script>
     <script src="<?= base_url();?>public/js/bootstrap.min.js" ></script>
+
 	<title>Torneo Futbol</title>    
 </head>
 <body>

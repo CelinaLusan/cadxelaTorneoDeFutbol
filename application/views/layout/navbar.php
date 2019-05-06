@@ -13,7 +13,10 @@
         	</li> 
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url()?>index.php/TablaPosiciones">Tabla de posiciones<span class="sr-only"></span></a>
-            </li> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url()?>index.php/Goles">Agregar goles<span class="sr-only"></span></a>
+            </li>
         </ul>        
     </div>
 </nav>
